@@ -1,0 +1,35 @@
+
+{
+  "app_not_updated_ios": [
+    {
+      "client_details": {
+        "id": "20582",
+        "name": "Dipal Thakkar",
+        "email_id": "tdipal@gmail.com",
+        "my_wallet": "0",
+        "phone": "+1-6787795055",
+        "user_status": "Active"
+      },
+      "program_details": {
+        "id": "122132",
+        "program_name": "Plateau Breaker(Client Exclusive)",
+        "mentor": "Jyoti",
+        "payment_method": "razorpay",
+        "mrp": 16999,
+        "paid": 11999,
+        "is_advanced_purchased": false
+      },
+      "NAME": "Trupti Shah",
+      "id": "3187",
+      "email_id": "trupti.varde@gmail.com",
+      "my_wallet": "7000",
+      "device": "iOS",
+      "client_app_version": "1.0.82",
+      "phone": "+91-9833381179",
+      "program_name": "Reform Intermittent Client Exclusive",
+      "user_status": "Active",
+      "mentor": "Kajal Salunkhe"
+    }
+    
+  ]
+}
