@@ -31,7 +31,7 @@ const NavItem = ({ item, level }) => {
 
   const Icon = item.icon;
   const itemIcon = item?.icon ? (
-    <Icon stroke={1.5} size="1.3rem" />
+    <Icon strokeWidth={1.5} size="1.3rem" stroke={customization.themeMode==="dark"?theme.palette.primary[100]:theme.palette.primary.dark} />
   ) : (
     <FiberManualRecordIcon
       sx={{

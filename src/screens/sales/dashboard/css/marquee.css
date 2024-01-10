@@ -1,0 +1,30 @@
+/* marquee.css */
+.marquee-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(to right, #04a5c9, #2888e1); /* Gradient background */
+  color: white;
+  padding: 10px; /* Add padding to the container */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.marquee-item {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; /* Choose an appropriate font family */
+  font-weight: bold; /* Adjust font weight as needed */
+  margin-right: 20px;
+  animation: marqueeAnimation 20s linear infinite;
+}
+
+@keyframes marqueeAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

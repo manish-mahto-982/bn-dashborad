@@ -1,0 +1,73 @@
+.data-cards-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  overflow-x: auto;
+}
+
+.data-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.data-card:hover {
+  transform: scale(1.05);
+}
+
+.value {
+  font-size: 16px;
+}
+
+.consultation-card {
+  background-color: #e6f7ff;
+}
+
+.consultation-value {
+  font-size: 24px;
+  color: #004080;
+}
+
+.prime-high-card {
+  background-color: #ffffcc;
+}
+
+.stage-card {
+  background-color: #f0f0f0;
+}
+
+.phase-card {
+  background-color: #ffe0ff;
+}
+
+.downgraded-card {
+  background-color: #ffe0e0;
+}
+
+.condition-card {
+  background-color: #e0e0ff;
+}
+
+.stage,
+.downgraded,
+.clinical-condition,
+.phase {
+  margin-top: 10px;
+}
+
+.left-text {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.right-text {
+  color: #ff6f61;
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,43 @@
+/* monthTarget.css */
+
+.gauge-chart-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with minimum item width of 200px */
+    grid-gap: 20px; /* Optional gap between items */
+  }
+  
+  .gauge-chart-item {
+  
+    text-align: center;
+    background-color: white; /* White card background */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  }
+
+  .gauge-chart1 text {
+    fill: red !important; /* Change the color to your preference */
+  }
+
+  .gauge-chart-item-main {
+    text-align: center;
+    background-color: #57a3d2; /* White card background */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  }
+  
+  .gauge-chart {
+    position: relative; /* Position relative to allow absolute positioning of the gauge chart */
+  }
+  
+  .gauge-chart p {
+    margin: 10px 0; /* Adjust spacing between text and chart */
+  }
+  
+  .gauge-chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
